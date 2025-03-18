@@ -4,9 +4,6 @@ import viteLogo from '/vite.svg'
 import axios from 'axios'
 import './App.css'
 
-interface Infantry {
-  name: string;
-}
 
 function App() {
   const [count, setCount] = useState(0)
